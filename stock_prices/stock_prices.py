@@ -6,7 +6,6 @@ def find_max_profit(prices):
       # declare value for max profit as negative infinity 
       max_profit_so_far = float('-inf')
       # declare value for min price as positive infinity
-      current_min_price_so_far = float('inf')
       
       # Traverse through all prices in list starting from first price
       for i in range(0, len(prices)):
